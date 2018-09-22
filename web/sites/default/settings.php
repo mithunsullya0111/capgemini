@@ -280,7 +280,7 @@ $config_directories = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'D0dsIKYu_CRePEJ3sZ4djGsZc7mfJtVUIAIKd-jEZeDiwRgJko00-sXsQpEoKT927jVTj0MZKA';
 
 /**
  * Deployment identifier.
@@ -769,3 +769,13 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $config_directories['sync'] = '../config/sync';
+$databases['default']['default'] = array (
+  'database' => 'capgemini',
+  'username' => 'root',
+  'password' => '1',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
