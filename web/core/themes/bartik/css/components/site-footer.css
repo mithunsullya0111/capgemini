@@ -10,7 +10,6 @@
 .site-footer .layout-container {
   padding: 0 15px;
 }
-
 @media all and (min-width: 560px) {
   .site-footer__top .region {
     float: left; /* LTR */
@@ -230,3 +229,8 @@
 [dir="rtl"] .site-footer__bottom .menu-item:first-child:last-child a {
   padding-right: 0;
 }
+.site-footer .block
+{
+border:none;
+}
+

@@ -1,13 +1,24 @@
 /* --------------- Primary Menu ------------ */
 
 .region-primary-menu {
-  clear: both;
+}
+ul.menu a.is-active
+{
+color:blue;
+}
+.block-menu .content .clearfix:after
+{
+clear:none;
 }
 .region-primary-menu .menu {
   font-size: 0.929em;
   margin: 0 5px;
+   color:blue;
   padding: 0;
-  text-align: left; /* LTR */
+  text-align: left;
+  float:right;
+   display:inline-block;
+ /* LTR */
 }
 [dir="rtl"] .region-primary-menu .menu {
   text-align: right;
@@ -22,17 +33,19 @@
   height: auto;
   width: 100%;
 }
+.menu-item a.is-active
+{
+color:blue;
+}
 .region-primary-menu .menu a {
-  color: #333;
-  background: #ccc;
-  background: rgba(255, 255, 255, 0.7);
-  float: none;
-  display: block;
-  text-decoration: none;
-  text-shadow: 0 1px #eee;
-  border-radius: 8px;
-  margin: 4px 0;
-  padding: 0.9em 0 0.9em 10px; /* LTR */
+ display: block;
+ color: blue;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ border-bottom:none;
+ font-family:Montserrat, sans-serif;
+ font-size:16px;  
 }
 [dir="rtl"] .region-primary-menu .menu a {
   padding: 0.9em 10px 0.9em 0;
@@ -40,10 +53,12 @@
 .region-primary-menu .menu a:hover,
 .region-primary-menu .menu a:focus {
   background: #f6f6f2;
+  color:blue;
   background: rgba(255, 255, 255, 0.95);
 }
 .region-primary-menu .menu a:active {
   background: #b3b3b3;
+  color:blue;
   background: rgba(255, 255, 255, 1);
 }
 .region-primary-menu .menu-item a.is-active {

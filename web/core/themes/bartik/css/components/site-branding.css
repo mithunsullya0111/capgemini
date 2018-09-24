@@ -6,21 +6,24 @@
 .site-branding__logo {
   display: inline-block;
   margin-right: 1em; /* LTR */
-  margin-bottom: 0.286em;
   border-bottom: 0;
+  float:left;
+  clear:none;
 }
 [dir="rtl"] .site-branding__logo {
   margin-right: 0;
   margin-left: 1em;
+  clear:none;
 }
 .site-branding__text {
   display: inline-block;
   vertical-align: top;
+  display:none;
 }
 
 @media all and (min-width: 461px) {
   .site-branding__text {
-    margin-bottom: 1.857em;
+   
   }
 }
 

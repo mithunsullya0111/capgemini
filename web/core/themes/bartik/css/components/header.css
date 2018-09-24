@@ -11,7 +11,10 @@
 .region-header .site-branding {
   margin-top: 0.429em;
 }
-
+.header .section .clearfix:after
+{
+clear:none;
+}
 @media all and (min-width: 461px) {
   .region-header .block {
     float: right; /* LTR */
