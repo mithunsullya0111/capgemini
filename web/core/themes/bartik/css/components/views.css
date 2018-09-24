@@ -228,6 +228,7 @@ font-size: 37px;
 }
 .footer-text
 {
+margin-bottom:1rem;
 float:right;
 clear:right;
  font-size: 18px;
@@ -262,8 +263,21 @@ padding-bottom:0px;
 }
 .footer
 {
-width:70%;
+width:65%;
+min-height:150px;
 background-color:#f8f9fa;
+left:0;
+right:0;
+margin:auto;
+padding:1.25rem;
+border-style: solid;
+border-width: 1px;
+border-color: #dee2e6;
+margin-bottom: 1.25rem;
+padding: 1.25rem;
+background: #f8f9fa;
+color: #343a40;
+line-height:1.2;
 }
 .footer1{
   color:white;
